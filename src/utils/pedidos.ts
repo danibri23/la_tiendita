@@ -1,6 +1,6 @@
-import type { informacion } from '$lib/interfaces/informacion';
+import type { information } from '$lib/interfaces/information';
 
-export const Cartas: informacion[] = [
+export const Data: information[] = [
 	{
 		id: '1',
 		nombre: 'Sofia',

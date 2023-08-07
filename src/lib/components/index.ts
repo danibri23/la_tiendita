@@ -1,2 +1,2 @@
-export { default as Card } from './Card.svelte';
+export { default as Cards } from './Cards.svelte';
 export { default as Cart } from './Cart.svelte';

@@ -1,17 +1,8 @@
 <script lang="ts">
-	import { Card, Cart } from '../lib/components';
-	import { Cartas } from '../utils/pedidos';
+	import { Cards, Cart } from '../lib/components';
 </script>
 
 <main>
-	{#each Cartas as carta}
-		<Card
-			id={carta.id}
-			imgSrc={carta.img}
-			altText={carta.nombre}
-			message={carta.nombre}
-			price={carta.precio}
-		/>
-	{/each}
+	<Cards />
 	<Cart />
 </main>
